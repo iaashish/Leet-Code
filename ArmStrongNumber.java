@@ -1,8 +1,8 @@
 class Solution {
     public boolean isArmstrong(int N) {
-        int result = 0;
-        int count = 0;
-        int mul = 1;
+        int result = 0;//store the result
+        int count = 0;//store the count
+        int mul = 1;//mul to get the orde of the number
         int q = N;
         while (q !=0){
             q = q/10;
