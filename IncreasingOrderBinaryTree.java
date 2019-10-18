@@ -21,7 +21,7 @@ class Solution {
         return node.right;
     }
     
-    
+    //do inorder traversal to store the elements in the list
     public List<Integer> getTree(TreeNode root, List<Integer> list){
         if(root == null){
             return list;
